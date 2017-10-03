@@ -7,33 +7,45 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://labrecruit.io/</loc>
-  <lastmod>2017-10-02T12:27:04+00:00</lastmod>
+  <loc>https://labrecruit.io/</loc>
+  <lastmod>2017-10-03T16:39:49+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://labrecruit.io/about.html</loc>
-  <lastmod>2017-10-02T12:27:04+00:00</lastmod>
+  <loc>https://labrecruit.io/index.html</loc>
+  <lastmod>2017-10-03T16:39:49+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://labrecruit.io/pricing.html</loc>
-  <lastmod>2017-10-02T12:27:04+00:00</lastmod>
+  <loc>https://labrecruit.io/software-developer-jobs.html</loc>
+  <lastmod>2017-10-03T16:39:49+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://labrecruit.io/faq.html</loc>
-  <lastmod>2017-10-02T12:27:04+00:00</lastmod>
+  <loc>https://labrecruit.io/recruitment-pricing.html</loc>
+  <lastmod>2017-10-03T16:39:49+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://labrecruit.io/index.html</loc>
-  <lastmod>2017-10-02T12:27:04+00:00</lastmod>
+  <loc>https://labrecruit.io/recruitment-about.html</loc>
+  <lastmod>2017-10-03T16:39:49+00:00</lastmod>
   <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://labrecruit.io/recruitment-faq.html</loc>
+  <lastmod>2017-10-03T16:39:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://labrecruit.io/recruitment-signup.html</loc>
+  <lastmod>2017-10-03T16:39:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
 </url>
 </urlset>
