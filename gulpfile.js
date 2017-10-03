@@ -22,7 +22,7 @@ gulp.task('minify:js', function () {
 });
 
 gulp.task('minify:images', function () {
-    return gulp.src('i/*')
+    return gulp.src(['i/*', 'i/**/*'])
         .pipe(imagemin([
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
