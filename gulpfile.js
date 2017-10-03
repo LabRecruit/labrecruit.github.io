@@ -14,7 +14,7 @@ gulp.task('minify:css', function () {
 });
 
 gulp.task('minify:js', function () {
-    return gulp.src(['js/*.js', '!' + 'js/js*.min.js'])
+    return gulp.src(['js/*.js', '!js/*.min.js'])
         .pipe(rename({
             extname: '.min.js'
         }))
