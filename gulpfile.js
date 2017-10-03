@@ -3,6 +3,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin');
+var purify = require('gulp-purifycss');
 
 gulp.task('minify:css', function () {
     return gulp.src(['css/*.css', '!css/*.min.css'])
@@ -39,4 +40,9 @@ gulp.task('minify:images', function () {
         .pipe(gulp.dest('i'));
 });
 
+gulp.task('purify', function() {
+    return gulp.src('./css/*.min.css')
+        .pipe(purify(['./js/*.js', './*.html']))
+        .pipe(gulp.dest('./css'));
+});
 gulp.task('default', ['minify:css', 'minify:js', 'minify:images']);
