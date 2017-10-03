@@ -4421,6 +4421,9 @@ b {
 
 /* Smaller than 480px */
 @media (max-width: 480px) {
+    .form_4 input {
+        width: calc(100% - 100px);
+    }
   .header_2 .header_2_link a {
     display: block; }
   .header_3 .header_3_form .text a {
@@ -4459,6 +4462,9 @@ b {
 
 /* Smaller than 470px */
 @media (max-width: 470px) {
+    .form_4 input {
+        width: calc(100% - 100px);
+    }
   .header_7 .form_text {
     text-align: center; }
   .header_10 h1 {
@@ -4835,4 +4841,8 @@ b {
     padding: 50px 0; }
     .call_to_action_2 h2 {
       font-size: 22px;
-      line-height: 32px; } }
+      line-height: 32px; }
+    .form_4 input {
+        width: calc(100% - 100px);
+    }
+}
