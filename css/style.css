@@ -1,9 +1,9 @@
-@import url(../css/normalize.min.css);
+@import url(../css/normalize.css);
 @import url(../css/bootstrap.min.css);
 @import url(../css/font-awesome.min.css);
-@import url(../css/slick.min.css);
-@import url(../css/slick-theme.min.css);
-@import url(../css/framework.min.css);
+@import url(../css/slick.css);
+@import url(../css/slick-theme.css);
+@import url(../css/framework.css);
 /* Blocks layout */
 body {
   font-family: Open Sans;
@@ -4786,9 +4786,6 @@ b {
     float: none; }
   .form_4 .slider {
     margin-top: 50px; }
-  .form_4 input {
-    width: calc(100% - 100px);
-  }
   .form_4 form {
     padding-bottom: 50px; }
     .form_4 form .form_inner {
