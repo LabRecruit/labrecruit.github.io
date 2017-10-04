@@ -43,7 +43,7 @@ gulp.task('minify:images', function () {
 
 gulp.task('purify', function() {
     return gulp.src('./css/*.min.css')
-        .pipe(purify(['./js/*.js', './*.html']))
+        .pipe(purify(['./js/*.min.js', './*.html'], {minify: true}))
         .pipe(gulp.dest('./css'));
 });
 gulp.task('webp', function () {
