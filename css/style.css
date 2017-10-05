@@ -1302,11 +1302,11 @@ b {
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   .form_4 {
     background-image: url(../i/form_4_bg_2x.jpg); } }
-  .form_4 form {
+  .form_4 .form_group {
     background: #ffffff; }
-    .form_4 form .form_4_menu {
+    .form_4 .form_group .form_4_menu {
       position: relative; }
-      .form_4 form .form_4_menu:after {
+      .form_4 .form_group .form_4_menu:after {
         content: "";
         display: block;
         width: 100%;
@@ -1315,10 +1315,10 @@ b {
         left: 0;
         bottom: 3px;
         z-index: 1; }
-      .form_4 form .form_4_menu a {
+      .form_4 .form_group .form_4_menu a {
         width: 50%;
         margin-bottom: 3px; }
-        .form_4 form .form_4_menu a:after {
+        .form_4 .form_group .form_4_menu a:after {
           content: "";
           display: block;
           width: 0%;
@@ -1329,17 +1329,17 @@ b {
           bottom: -3px;
           transition: width 0.2s;
           z-index: 10000; }
-        .form_4 form .form_4_menu a:last-child:after {
+        .form_4 .form_group .form_4_menu a:last-child:after {
           left: 0;
           right: auto; }
-        .form_4 form .form_4_menu a.slick-current:after {
+        .form_4 .form_group .form_4_menu a.slick-current:after {
           width: 100%; }
-    .form_4 form .btn i {
+    .form_4 .form_group .btn i {
       position: relative;
       top: 3px; }
-    .form_4 form .separate {
+    .form_4 .form_group .separate {
       position: relative; }
-      .form_4 form .separate:before {
+      .form_4 .form_group .separate:before {
         content: " ";
         width: 100%;
         position: absolute;
@@ -1347,7 +1347,7 @@ b {
         top: 50%;
         border-bottom: 1px solid #95a5a6;
         opacity: 0.3; }
-      .form_4 form .separate span {
+      .form_4 .form_group .separate span {
         position: relative;
         background: #ffffff;
         z-index: 1; }
@@ -3010,7 +3010,7 @@ b {
       max-width: 100%;
       text-align: center;
       margin-top: 0; }
-    .form_4 form {
+    .form_4 .form_group {
       float: none;
       margin: 50px auto 0 auto; }
   .form_5 {
@@ -4384,9 +4384,9 @@ b {
   .form_4 .text {
     font-size: 18px;
     line-height: 28px; }
-  .form_4 form {
+  .form_4 .form_group {
     width: 100%; }
-    .form_4 form .form_inner {
+    .form_4 .form_group .form_inner {
       padding: 0 30px; }
   .form_7 h2 {
     font-size: 32px;
@@ -4786,9 +4786,9 @@ b {
     float: none; }
   .form_4 .slider {
     margin-top: 50px; }
-  .form_4 form {
+  .form_4 .form_group {
     padding-bottom: 50px; }
-    .form_4 form .form_inner {
+    .form_4 .form_group .form_inner {
       padding: 0 20px; }
   .contact_6 form .input_block {
     float: none;
