@@ -1,6 +1,11 @@
 // Scroll.js
 
 $(document).ready(function(){
+  var shoudShowNotice = window.location.search.indexOf('s=1') >= 0;
+  if (shoudShowNotice) {
+    $('[data-notice]').addClass('show');
+  }
+
   $('[data-dismiss]').on('click', function (e) {
     e.preventDefault();
     $('[data-notice]').toggleClass('show');
