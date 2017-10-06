@@ -87,6 +87,40 @@ b {
   background: #111111 url(../i/header_2_bg.jpg) no-repeat 50% 50%;
   background-size: cover; }
 
+.contact-notice {
+  display: none;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 1001;
+}
+
+.contact-notice > .dismiss {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  cursor: pointer;
+  width: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  opacity: 1;
+}
+
+.contact-notice > .dismiss:hover {
+  opacity: .7;
+}
+
+.contact-notice > .content {
+  color: #fff;
+  padding: 1em;
+  margin: 0;
+}
+
+.contact-notice > .success {
+  background-color: #0cb658;
+}
+
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   .header_2 {
     background-image: url(../i/header_2_bg_2x.jpg); } }
