@@ -1,6 +1,11 @@
 // Scroll.js
 
 $(document).ready(function(){
+  $('[data-dismiss]').on('click', function (e) {
+    e.preventDefault();
+    $('[data-notice]').toggleClass('show');
+  });
+
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 

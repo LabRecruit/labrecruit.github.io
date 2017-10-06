@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "minify": "npm run minify:js && npm run minify:css",
+    "minify:js": "gulp minify:js",
     "minify:css": "gulp minify:css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
