@@ -146,6 +146,11 @@ b {
   line-height: 2em;
 }
 
+.langs_container {
+  font-size: 1.125em;
+  font-weight: 300;
+}
+
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   .header_2 {
     background-image: url(../i/header_2_bg_2x.jpg); } }
