@@ -11,7 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  /* 	background:#ecf0f1; */ }
+}
 
 header {
   position: relative; }
@@ -87,6 +87,8 @@ b {
   background: #111111 url(../i/header_2_bg.jpg) no-repeat 50% 50%;
   background-size: cover; }
 
+/* CUSTOM */
+
 .contact-notice {
   display: none;
   position: fixed;
@@ -119,6 +121,29 @@ b {
 
 .contact-notice > .success {
   background-color: #0cb658;
+}
+
+.text_container {
+  min-height: 23em;
+  padding: 5em 1em 2em 1em;
+  background-color: #2B2B2B;
+  text-align: center;
+  color: #fff;
+}
+
+.text_container--title {
+  line-height: 1.5em;
+  font-size: 2.25em;
+  text-transform: capitalize;
+  padding-bottom: .5em;
+}
+
+.text_container--content {
+  display: inline-block;
+  max-width: 36em;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 2em;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
@@ -4353,6 +4378,15 @@ b {
 
 /* Smaller than 500px */
 @media (max-width: 500px) {
+  .text_container {
+    padding-top: 3em;
+    min-height: initial;
+  }
+
+  .text_container--content {
+    line-height: 1.5em;
+  }
+
   .header_9 form {
     width: 100%; }
     .header_9 form input {
@@ -4451,7 +4485,8 @@ b {
     width: 100%; }
     .contact_4 form .input_block, .contact_4 form .checkbox, .contact_4 form .btn {
       float: none;
-      width: 100%; } }
+      width: 100%; }
+}
 
 /* Smaller than 480px */
 @media (max-width: 480px) {
