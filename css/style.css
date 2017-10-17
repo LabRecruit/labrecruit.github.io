@@ -147,7 +147,15 @@ b {
 }
 
 .langs_container {
-  font-size: 1.125em;
+  padding: 5em 1em 0 1em;
+  text-align: center;
+}
+
+.langs_container--content {
+  display: inline-block;
+  max-width: 50em;
+  font-size: 1.25em;
+  line-height: 2.25em;
   font-weight: 300;
 }
 
