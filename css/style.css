@@ -167,9 +167,29 @@ b {
   text-align: center;
 }
 
+.langs_boxes--box {
+  display: inline-block;
+  margin: .5em;
+}
+
+.langs_boxes--box:hover {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);
+}
+
+.langs_boxes--box:hover > .langs_boxes--image.colored {
+  display: inline;
+}
+
+.langs_boxes--box:hover > .langs_boxes--image.grayscale {
+  display: none;
+}
+
 .langs_boxes--image {
   max-width: 15em;
-  margin: .5em;
+}
+
+.langs_boxes--image.colored {
+  display: none;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
