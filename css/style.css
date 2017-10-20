@@ -89,6 +89,10 @@ b {
 
 /* CUSTOM */
 
+.main-logo {
+  max-width: 9.5em;
+}
+
 .contact-notice {
   display: none;
   position: fixed;
