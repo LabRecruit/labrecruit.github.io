@@ -216,7 +216,6 @@ b {
   display: inline-block;
   vertical-align: top;
   width: 49%;
-  height: 23em;
 }
 
 .howitworks--box.-left {
@@ -231,7 +230,7 @@ b {
 
 .howitworks--textbox {
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .howitworks--textbox-title {
@@ -2768,11 +2767,6 @@ b {
 /* Smaller than 992px */
 @media (max-width: 992px) {
 
-  .howitworks--box {
-    height: initial;
-    min-height: 15em;
-  }
-
   .howitworks--box.-right {
     padding-right: 3em;
   }
@@ -3487,7 +3481,6 @@ b {
 /* Smaller than 767px */
 @media (max-width: 767px) {
   .howitworks--box {
-    min-height: initial;
     width: 100%;
   }
 
