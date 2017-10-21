@@ -196,6 +196,76 @@ b {
   display: none;
 }
 
+.howitworks {
+  padding: 1em;
+}
+
+.howitworks--separator {
+  position: absolute;
+}
+
+.howitworks--content {
+  padding-top: 3em;
+  text-align: center;
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.howitworks--box {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  height: 23em;
+}
+
+.howitworks--box.-left {
+  text-align: left;
+  padding-left: 5em;
+}
+
+.howitworks--box.-right {
+  text-align: right;
+  padding-right: 5em;
+}
+
+.howitworks--textbox {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.howitworks--textbox-title {
+  font-family: Raleway, sans-serif;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+.howitworks--textbox-content {
+  color: #4A4A4A;
+  display: inline-block;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.75em;
+  max-width: 26em;
+}
+
+.howitworks--titlebox {
+  padding-top: 5em;
+  text-align: center;
+}
+
+.howitworks--title {
+  color: #4A4A4A;
+  font-family: Raleway;
+  font-size: 2.25em;
+  font-weight: 300;
+}
+
+.howitworks--image {
+  width: 70%;
+}
+
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   .header_2 {
     background-image: url(../i/header_2_bg_2x.jpg); } }
@@ -2665,6 +2735,11 @@ b {
 
 /* 1024px and smaller */
 @media (max-width: 1024px) {
+
+  .howitworks--image {
+    width: 75%;
+  }
+
   .navigation_12 .nav_logo {
     position: static;
     transform: none;
@@ -2692,6 +2767,20 @@ b {
 
 /* Smaller than 992px */
 @media (max-width: 992px) {
+
+  .howitworks--box {
+    height: initial;
+    min-height: 15em;
+  }
+
+  .howitworks--box.-right {
+    padding-right: 3em;
+  }
+
+  .howitworks--box.-left {
+    padding-left: 3em;
+  }
+
   h2 br, .text br {
     display: none; }
   .navigation_1 {
@@ -3397,6 +3486,20 @@ b {
 
 /* Smaller than 767px */
 @media (max-width: 767px) {
+  .howitworks--box {
+    min-height: initial;
+    width: 100%;
+  }
+
+  .howitworks--imagebox {
+    display: none;
+  }
+
+  .howitworks--box.-right, .howitworks--box.-left {
+    text-align: left;
+    padding: 0 0 0 8em;
+  }
+
   h1 br, h2 br {
     display: none; }
   .navigation_5, .navigation_6 {
@@ -4435,6 +4538,11 @@ b {
 
   .text_container--content {
     line-height: 1.5em;
+  }
+
+  .howitworks--box.-right, .howitworks--box.-left {
+    text-align: center;
+    padding: 0;
   }
 
   .header_9 form {
