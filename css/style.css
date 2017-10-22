@@ -276,6 +276,10 @@ b {
   max-width: 26em;
 }
 
+.howitworks--imagebox.-left {
+  margin-bottom: 5em;
+}
+
 .howitworks--titlebox {
   padding-top: 5em;
   text-align: center;
