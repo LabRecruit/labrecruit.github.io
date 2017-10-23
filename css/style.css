@@ -153,6 +153,12 @@ b {
   color: #fff;
 }
 
+.pricing--title-box {
+  padding: 4em 0 2em 0;
+  text-align: center;
+}
+
+.pricing--title,
 .text_container--title {
   line-height: 1.5em;
   font-family: Raleway, sans-serif;
@@ -161,12 +167,87 @@ b {
   padding-bottom: .5em;
 }
 
+.pricing--title {
+  text-transform: initial;
+}
+
+.pricing--tagline,
 .text_container--content {
   display: inline-block;
   max-width: 36em;
   font-size: 1.5em;
   font-weight: 300;
   line-height: 2em;
+}
+
+.pricing--tagline {
+  width: 100%;
+  max-width: initial;
+  line-height: 1.5em;
+}
+
+.pricing--content-card-box,
+.pricing--content-bullets {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.pricing--content-bullets {
+  text-align: left;
+  padding: 5em 0 0 5em;
+  font-family: Raleway, sans-serif;
+  font-size: 1.5em;
+  color: #4A4A4A;
+  line-height: 3em;
+}
+
+.pricing--content-card {
+  text-align: center;
+}
+
+.pricing--content-card-box {
+  background: url('../i/pricing-card_bg.png') no-repeat center;
+  width: 451px;
+  height: 647px;
+}
+
+.pricing--card-title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4px;
+  margin-bottom: 2em;
+}
+
+.pricing--card-icon {
+  margin-bottom: 2em;
+}
+
+.pricing--card-detail {
+  width: 60px;
+  border: 5px solid white;
+  height: 1px;
+  display: inline-block;
+  margin-top: 3em;
+}
+
+.pricing--card-description {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  padding: 0 2em;
+  color: #fff;
+  margin-bottom: 3.5em;
+}
+
+.pricing--card-link,
+.pricing--card-link:hover {
+  border-radius: 100px;
+  padding: 1em 2em;
+  text-transform: capitalize;
+  background-color: #fff;
+  color: #D0021B;
 }
 
 .langs_container {
@@ -215,18 +296,25 @@ b {
   display: none;
 }
 
+.pricing,
 .benefits,
 .howitworks {
   padding: 1em;
 }
 
 .benefits--cards,
+.pricing--content,
 .howitworks--content {
   padding-top: 5em;
   text-align: center;
   max-width: 75em;
   margin-left: auto;
   margin-right: auto;
+}
+
+.pricing--content {
+  padding-top: 2em;
+  padding-bottom: 5em;
 }
 
 .howitworks--content-row {
@@ -2865,6 +2953,13 @@ b {
     left: -3.9em;
   }
 
+  .pricing--content-bullets {
+    padding-left: 0;
+    width: initial;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   h2 br, .text br {
     display: none; }
   .navigation_1 {
@@ -4633,6 +4728,18 @@ b {
 
   .benefits--title-box {
     padding-top: 3em;
+  }
+
+  .pricing--content-card-box {
+    width: 100%;
+  }
+
+  .pricing--card-description {
+    margin-bottom: 2em;
+  }
+
+  .pricing--content-bullets {
+    font-size: 1em;
   }
 
   .text_container {
