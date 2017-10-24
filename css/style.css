@@ -195,11 +195,33 @@ b {
 
 .pricing--content-bullets {
   text-align: left;
-  padding: 5em 0 0 5em;
+  padding: 6em 0 0 1em;
   font-family: Raleway, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   color: #4A4A4A;
   line-height: 3em;
+}
+
+.pricing--content-icon-box {
+  display: inline-block;
+  width: 7em;
+  text-align: center;
+}
+
+.pricing--content-icon {
+  max-width: 3em;
+}
+
+.pricing--content-icon.smaller {
+  max-width: 2.25em;
+}
+
+.pricing--content-bullet {
+  margin-bottom: 1em;
+}
+
+.pricing--content-bullet-text {
+  display: inline-block;
 }
 
 .pricing--content-card {
@@ -5088,6 +5110,19 @@ b {
   .footer_13 .block_right .socials {
     display: block;
     margin-top: 5px; } }
+
+/* Smaller than 415px */
+@media (max-width: 415px) {
+  .pricing--content-icon-box {
+    display: block;
+    width: initial;
+  }
+
+  .pricing--content-bullet-text {
+    display: block;
+    text-align: center;
+  }
+}
 
 /* Smaller than 400px */
 @media (max-width: 400px) {
