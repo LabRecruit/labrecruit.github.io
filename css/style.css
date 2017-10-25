@@ -1053,11 +1053,22 @@ b {
 /* Content 6 */
 .content_6 {
   background: #141617 url(../i/content_6_bg.jpg) 50% 50%;
-  background-size: cover; }
+  background-size: cover;
+}
+
+.content_6.jobs {
+  background: #141617 url(../i/jobs-hero-bg.jpg) 50% 50%;
+}
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   .content_6 {
-    background-image: url(../i/content_6_bg_2x.jpg); } }
+    background-image: url(../i/content_6_bg_2x.jpg);
+  }
+
+  .content_6.jobs {
+    background-image: url(../i/jobs-hero-bg_2x.jpg);
+  }
+}
 
 /* Content 7 */
 .content_7 {
