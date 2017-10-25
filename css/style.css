@@ -1056,13 +1056,21 @@ b {
   background-size: cover;
 }
 
+.content_6.about {
+  background-image: url(../i/about-hero-bg.jpg);
+}
+
 .content_6.jobs {
-  background: #141617 url(../i/jobs-hero-bg.jpg) 50% 50%;
+  background-image: url(../i/jobs-hero-bg.jpg);
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   .content_6 {
     background-image: url(../i/content_6_bg_2x.jpg);
+  }
+
+  .content_6.about {
+    background-image: url(../i/about-hero-bg_2x.jpg);
   }
 
   .content_6.jobs {
